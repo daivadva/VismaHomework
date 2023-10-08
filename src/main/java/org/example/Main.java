@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the amount of numbers:");
         n = scanner.nextInt();
-        int[] array = new int[100];
+        int[] array = new int[10];
         System.out.println("Enter numbers:");
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
