@@ -21,7 +21,6 @@ public class Main {
             System.out.println(array[i]);
 
             if (array[i] != 0) {
-                count++;
                 continue;
             } else {
                break;
