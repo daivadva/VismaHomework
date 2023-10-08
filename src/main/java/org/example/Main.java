@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the amount of numbers:");
         n = scanner.nextInt();
-        int[] array = new int[10];
+        int[] array = new int[100];
         System.out.println("Enter numbers:");
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
@@ -21,12 +21,13 @@ public class Main {
             System.out.println(array[i]);
 
             if (array[i] != 0) {
+                count++;
                 continue;
             } else {
                break;
             }
         }
-        System.out.println("Amount of numbers are: " + array.length);
+        System.out.println("Amount of numbers are: " + count);
         System.out.println("Full array:");
         for (int i = 0; i < n; i++) {
             System.out.println(array[i]);
