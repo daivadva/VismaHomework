@@ -24,10 +24,10 @@ public class Main {
                 count++;
                 continue;
             } else {
-                break;
+               break;
             }
         }
-        System.out.println("Amount of numbers are: " + count);
+        System.out.println("Amount of numbers are: " + array.length);
         System.out.println("Full array:");
         for (int i = 0; i < n; i++) {
             System.out.println(array[i]);
